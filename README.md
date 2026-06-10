@@ -50,8 +50,8 @@ for link in links:
 ### Métodos Comuns que Você Deve Conhecer
 
 * `soup.find('nome_da_tag')`: Retorna a primeira tag que corresponder à busca.
-
-você pode acessar o Beautiful Soup pela pagina: https://pypi.org/project/beautifulsoup4/
 * `soup.find_all('nome_da_tag')`: Retorna uma lista de todas as tags que corresponderem à busca.
 * `soup.select('seletor_css')`: Permite encontrar elementos usando seletores CSS padrão (como `.nome-da-classe` ou `#nome-do-id`).
 * `tag.get_text()`: Extrai todo o texto dentro de uma tag e de suas tags filhas.
+
+você pode acessar o Beautiful Soup pela pagina: https://pypi.org/project/beautifulsoup4/
